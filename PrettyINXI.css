@@ -1,0 +1,91 @@
+/*
+CSS for the XML Style Sheet
+
+@category  CSS
+@package   PrettyINXI
+@author    Luca Mauri - www.lucamauri.com
+@copyright 2020 Luca Mauri
+@license   https://www.gnu.org/licenses/gpl-3.0.html GNU General Public License version 3
+@version   v.1.0
+@link      https://github.com/lucamauri/PrettyINXI
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Fira+Sans:wght@400;800&family=IBM+Plex+Mono&family=Inter:wght@400;600;800&family=Jost:wght@400;800&display=swap');
+/*
+font-family: 'Fira Code', monospace;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Inter', sans-serif;
+font-family: 'Jost', sans-serif;
+*/
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 4em;
+  }
+  h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+  }
+  h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+  }
+  body {
+    /*font-family: 'Jost', sans-serif;*/
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    border: 0px;
+    padding: 0px;
+  }
+
+  .tableval {
+    font-family: 'Fira Code', monospace;
+    font-weight: 400;
+    font-size: 1em;
+  }
+
+  .hashref {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.hashref thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.hashref th {
+  background-color: #29A638;
+  color: #ffffff;
+}
+
+.hashref th,
+.hashref td {
+    padding: 6px 6px;
+}
+
+.hashref tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.hashref tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.hashref tbody tr:last-of-type {
+    border-bottom: 2px solid #29A638;
+}
+
+.hashref tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
